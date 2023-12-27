@@ -127,7 +127,7 @@ export default observer(() => {
                             </a>
 
                             {client.servers.get(
-                                "01F7ZSBSFHQ8TA81725KQCSDDP",
+                                "01HJMSWXNQEBXJVB0GPBAV5BPG",
                             ) ? (
                                 <Link to="/server/01F7ZSBSFHQ8TA81725KQCSDDP">
                                     <CategoryButton
