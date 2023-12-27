@@ -39,7 +39,7 @@ export function OnboardingModal({
         <div className={styles.onboarding}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <h1>{"Welcome to Revolt."}</h1>
+                    <h1>{"Welcome to Chat!"}</h1>
                 </div>
                 <div className={styles.form}>
                     {loading ? (
@@ -50,11 +50,11 @@ export function OnboardingModal({
                                 {"It's time to choose a username."}
                                 <br />
                                 {
-                                    "Others will be able to find, recognise and mention you with this name, so choose wisely."
+                                    "We will find you using this name."
                                 }
                                 <br />
                                 {
-                                    "You can change it at any time in your User Settings."
+                                    "You can change it at any time in your User Settings. - Love Camjam"
                                 }
                             </p>
                             <form
